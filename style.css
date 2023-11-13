@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+
+body {
+  font-family: "Concert One", sans-serif;
+  min-height: 300px;
+  background-image: url(https://images5.alphacoders.com/132/thumb-1920-1327980.png);
+  background-color: #000000;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 90vh;
+}
+
+.page-title {
+  font-family: "Concert One", sans-serif;
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin: 3rem 0 2rem 0;
+}
+
+.page-subtitle {
+  font-size: 1.3rem;
+  color: black;
+  margin-top: 0.5rem;
+}
+
+.page-logo {
+  width: 12rem;
+}
+
+.page-logo:hover {
+  animation: tilt-shaking 0.15s infinite;
+}
+
+input {
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+label {
+  color: white;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+footer {
+  font-size: 0.7rem;
+  color: black;
+  text-align: center;
+  font-family: cursive;
+  letter-spacing: 3px;
+  font-weight: bold;
+  margin: 0 0 5rem 0;
+}
+
+#convertede,
+#convertepara {
+  font-family: "Concert One", sans-serif;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  background: #eeb0a0;
+  border: 0.1rem solid black;
+}
+
+.bt_converter {
+  font-family: "Concert One", sans-serif;
+  padding: 0.4rem 0.8rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  background: #86aac5;
+  border: 0.1rem solid black;
+}
+
+.bt_converter:hover {
+  background: #acc5d7;
+}
+
+@keyframes tilt-shaking {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(0eg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

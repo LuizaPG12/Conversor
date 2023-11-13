@@ -1,0 +1,58 @@
+<!-- Código HTML site -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor</title>
+  <link rel="icon" type="image/png" href="https://www.iconpacks.net/icons/2/free-curved-arrow-icon-2261-thumb.png" />
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      CONVERSOR DE MOEDAS E MAIS
+    </h1>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+
+    <p class="page-subtitle">
+      <b>➯ Escolha a unidade de partida e a que deseja:<b>
+    </p><br>
+    <div class="conversor__valores">
+      <div class="seletor">
+        <select name="convertede" id="convertede">
+          <option value="de">Converter de</option>
+          <option value="Dolar">Dolar</option>
+          <option value="Real">Real</option>
+          <option value="Euro">Euro</option>
+          <option value="Bitcoin">BitCoin</option>
+          <option value="Km">Km</option>
+          <option value="Ano-luz">Ano-Luz</option>
+        </select>
+
+        <select name="convertepara" id="convertepara">
+          <option value="para">para</option>
+          <option value="Dolar">Dolar</option>
+          <option value="Real">Real</option>
+          <option value="Euro">Euro</option>
+          <option value="Bitcoin">BitCoin</option>
+          <option value="Km">Km</option>
+          <option value="Ano-luz">Ano-Luz</option>
+        </select>
+      </div>
+      <label for="converter">
+        <input type="number" id="valor">
+      </label>
+      <button type="submit" class="bt_converter" onclick="Converter()">Converter</button><br><br>
+      <h2 id="valorConvertido"></h2><br>
+    </div>
+    <footer>
+      <br><br>
+      <p class="footer">Desenvolvido por Luiza12 #imersaodev</p><br>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
